@@ -1,0 +1,85 @@
+body{ background-color:rgb(109, 109, 199);
+    font-size: large;
+    font-display: 3px;
+}
+.section
+{width: 100%;
+background-color:white }
+
+.left-section{ float: left;
+    display: block;}
+
+.left-section2{
+  width: 30%;
+  float: left;
+  height: 100vh;
+  font-size: medium;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-right: 1em;
+  margin-top: 1rem;
+  margin-top: 1rem;
+  text-align: justify;
+  line-height: 2;}
+
+  p{margin-top: 2em;
+    margin-right: 2em;
+    margin-left: 2em;
+    list-style: 2;
+       }
+
+    h1{margin-top: 1em;
+    margin-right: 2em;
+    margin-left: 2em;
+    align-items: center;
+color: blueviolet;}
+
+nav{ 
+    display: flex;
+    justify-content: right;
+    padding:0em;
+}
+
+nav a{
+    margin: 15 15 15 15em;
+    font-size: 25;
+    color: blueviolet;
+   display: flex;
+   padding-left: 12em;
+   padding-top: 5em;}
+
+
+    .recipe-section{display: flex;
+    margin: 5px;
+    padding: 2em; 
+    text-align: center;}
+        
+ .recipe-section2{display:block;
+    margin: 0px;
+    padding: 1em;
+    text-align: left;
+    size: 2px;
+    border: 3px;
+}
+
+figcaption{
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5px;
+    align-items: last baseline;}
+
+   form{
+    width: 300px;
+    margin: 1em;
+    color: rgb(11, 9, 13);
+    margin-top: 5em;
+   }
+   input{
+    width: 80%;
+    padding: 10px;
+    background-color: rgb(184, 156, 204);
+    color: rgb(13, 12, 14);
+    border: none;
+    cursor: pointer;
+    box-sizing: border-box;
+    margin: 5px 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;}
