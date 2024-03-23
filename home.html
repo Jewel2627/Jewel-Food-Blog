@@ -3,17 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/unsemantic-grid-responsive-tablet.">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
    <title>JEWEL FOOD BLOG</title>
   
 <div class="section left-section">
-    <img src="Images/food logo.jpg" alt="food.jpg" width = "120" height="120"></div> 
+    <img src="Images/food logo.jpg" alt="food.jpg" width = "80" height="80"></div> 
     
     <nav>
         <a href="home.html">HOME</a>
         <a href="recipeindex.html">RECIPE</a>
         <a href="about.html">ABOUT</a>
-        <a href="starthere.html">START HERE</a>
+        <a href="index2.php">LOGIN</a>
+        <a href="addrecipe.html">ADD RECIPE</a>
      </nav> 
 </head>
 
@@ -29,41 +33,60 @@
 
 </div> 
     
-  <div class="recipe-section">
+  <div class="container">
+    <div class row>
+        <div class="column">
+
      <a href="pastarecipe.html"><img src="Images/pasta.png" alt="food.jpg" width = "150" height="150"></a>
-    <figcaption span style="color: azure;">Pasta</figcaption>
-
+   <p> <figcaption span style="color: azure;">Pasta</figcaption></p>
+</div>
+<div class="column">
     <a href="quickrecipe.html"><img src="Images/fast food.webp" alt="food.jpg" width = "150" height="150"></a>
-    <figcaption span style="color: azure;">Quick & Easy</figcaption>
+    <p><figcaption span style="color: azure;">Quick & Easy</figcaption></p>
+</div>
+</div>
 
-    <a href="saladrecipe.html"><img src="Images/salad.jpg" alt="food.jpg" width = "150" height="150"></a>
-    <figcaption span style="color: azure;">Salad</figcaption></div>
 
-    <div class="recipe-section">
-    <a href="vegrecipe.html"><img src="Images/vegeterian.jpg" alt="food.jpg" width = "150" height="150"></a>
-    <p span style="color: azure;">vegetarian</figcaption>
-
-    <a href="souprecipe.html"><img src="Images/sweet-potato-.jpg" alt="food.jpg" width = "150" height="150"></a>
-    <figcaption span style="color: azure;">Soup</figcaption>
-
-    <a href="bowl.html"><img src="Images/ChickenBowls.jpg" alt="food.jpg" width = "150" height="150"></a>
-    <figcaption span style="color: azure;">ChickenBowls</figcaption></div>
-
-       <div class="recipe-section2"> <a href="starthere.html">Sign Up</a>
-       <div class="recipe-section2"> <a href="starthere.html">Sign in</a>
-        <div class="recipe-section2"> <a href="C:\Users\jooso\Documents\my food blog.docx"> Download full Recipe</a>
+<div class="container2">    <div class="row2">
+    
+    <div class="column2">    <a href="saladrecipe.html"><img src="Images/salad.jpg" alt="food.jpg" width = "150" height="150"></a> 
+        <p><figcaption span style="color: azure;">Salad</figcaption></p>
+    
+        <div class="column2">
+            <a href="vegrecipe.html"><img src="Images/vegeterian.jpg" alt="food.jpg" width = "150" height="150"></a>
+            <p><figcaption span style="color: azure;">vegetarian</figcaption></p>
+        </div>
     </div>
 
-    <form id="upload" action="upload.php" method="post"
-        enctype= "multipart/form-data">
-        <label for ="Document"> Select a document to upload:</label><br>
-        <input type="file" id="document" name="=document"><br>
-        <input type="submit" value="upload">
-    </form>
-  
+</div>
+</div>
+
+   
+
+    <div class="container2">
+        <div class="row3">
+           
+
+    <div class="=column3"><a href="souprecipe.html"><img src="Images/sweet-potato-.jpg" alt="food.jpg" width = "150" height="150"></a>
+    <p><figcaption span style="color: azure;">Soup</figcaption></p>
+</div>
+    <div class="column3"><a href="bowl.html"><img src="Images/ChickenBowls.jpg" alt="food.jpg" width = "150" height="150"></a>
+    <p><figcaption span style="color: azure;">ChickenBowls</figcaption></p>
+</div>
+</div>
+</div>
+</div>
+
+
+      
+
+   
 </body>
 
-<footer>
+<footer class="fa">
+    
+  <a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
 
 </footer>
 
