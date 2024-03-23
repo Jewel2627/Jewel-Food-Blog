@@ -1,0 +1,130 @@
+body{ background-color:rgb(109, 109, 199);
+    font-size: large;
+    font-display: 3px;
+}
+.section
+{width: 100%;
+background-color:white }
+
+.left-section{ float: left;
+    display: block;}
+
+.left-section2{
+  width: 30%;
+  float: left;
+  height: 100vh;
+  font-size: medium;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-right: 1em;
+  margin-top: 1rem;
+  margin-top: 1rem;
+  text-align: justify;
+  line-height: 2;}
+
+  p{margin-top: 2em;
+    margin-right: 2em;
+    margin-left: 2em;
+    list-style: 2;
+       }
+
+    h1{margin-top: 1em;
+    margin-right: 2em;
+    margin-left: 2em;
+    align-items: center;
+color: blueviolet;}
+
+nav{ 
+    display: flex;
+    justify-content: right;
+    padding:0em;
+}
+    nav a{
+        margin: 15 15 15 15em;
+        font-size: 25;
+        color: blueviolet;
+       display: flex;
+       padding-top: 2em;
+       padding-left: 5em;
+       text-decoration: none;
+    }
+
+
+   .container{
+    display:flex;
+    margin: auto;
+    padding: 2em;
+    text-align: center;
+    width: 100;
+    height: auto;
+    flex-wrap: wrap;
+
+    .container2, .container3{
+        display:flex;
+        margin: auto;
+        padding: 2em;
+        text-align: right;
+        width: 100;
+        height: auto;
+        flex-wrap: wrap;
+
+ .row{
+    width:100%;
+    display:block;
+    justify-content:space-around;
+    margin:auto;
+    padding: 0em;
+   
+    }
+
+    .row2,{
+        width: 100px;
+        display:block;
+        justify-content:space-around;
+        margin: auto;
+        padding: 5em;
+       
+        }
+        .row3{
+            width: 100px;
+            display:block;
+            justify-content:space-around;
+            margin: auto;
+            padding: 5em;
+        }
+        .column{
+            flex: 0 0 calc(33.33% -20px);
+           margin: 5 5 5 5px;
+           padding: 5em;
+            }
+
+    .column2, {
+        flex: 0 0 calc(33.33% 20px);
+       margin: 5 5 5 5px;
+       padding: 0em;
+        }
+
+        .column3{
+            flex: 0 0 calc(33.33% 20px);
+       margin: 5 5 5 5px;
+       padding: 0em;
+        }
+
+
+}
+
+  form{
+    width: 300px;
+    margin: 1em;
+    color: rgb(11, 9, 13);
+    margin-top: 5em;
+   }
+   input{
+    width: 80%;
+    padding: 10px;
+    background-color: rgb(184, 156, 204);
+    color: rgb(13, 12, 14);
+    border: none;
+    cursor: pointer;
+    box-sizing: border-box;
+    margin: 5px 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;}
