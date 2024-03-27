@@ -5,7 +5,7 @@
         <?php
             include('connection.php');
           
-             $RecipeName=$_POST['recipemethod'];
+             $recipename=$_POST['recipename'];
              $sql = "SELECT * FROM recipemethod WHERE recipename='$recipename'";
                     $result = $db->query($sql);
 
@@ -15,7 +15,7 @@
                         
                         $chefname=$row["chefname"];
                         $category=$row["category"];
-                        $RecipeName=$row["recipename"];
+                        $recipename=$row["recipename"];
                         $Ingredients=$row["Ingredients"];
                         $Directions=$row["directions"];
 

@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/unsemantic-grid-responsive-tablet.">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
    <title>JEWEL FOOD BLOG</title>
   
 <div class="section left-section">
@@ -16,6 +18,7 @@
         <a href="about.html">ABOUT</a>
         <a href="index2.php">LOGIN</a>
         <a href="addrecipe.html">ADD RECIPE</a>
+        <a href="editrecipe.html">EDIT HERE</a>
      </nav> 
 </head>
 
@@ -23,9 +26,8 @@
 
 
 <body>
-       <h3>Please Edit here</h3>
-    <br><br>
-    <form method="post" action="editrecipe.php">
+       <h1>Please Edit here</h1>
+  <form method="post" action="editrecipe.php">
         <label>Recipe Name:</label>
         <input type="text" name="RecipeName" />
         <br><br>
@@ -33,5 +35,16 @@
         &nbsp;&nbsp;&nbsp;&nbsp;
         <input type="button" value="Reset" />
     </form>
+
+   <div> <h1>Delete here</h1>
+    <form method="post" action="delete.php">
+        <label>Recipe Name:</label>
+        <input type="text" name="RecipeName" />
+        <br><br>
+        <input type="submit" name="submit" value="Search to Delete" />
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="button" value="Reset" />
+    </form>
+</div>
 </body>
 </html>

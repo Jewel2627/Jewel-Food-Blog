@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/unsemantic-grid-responsive-tablet.">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="<iframe width="560" height="315" src="https://www.youtube.com/embed/bMactSaZWfU?si=u1Bg0TNjFOZIe7oA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
    <title>JEWEL FOOD BLOG</title>
   
 <div class="section left-section">
@@ -16,6 +20,7 @@
         <a href="about.html">ABOUT</a>
         <a href="index2.php">LOGIN </a>>
         <a href="addrecipe.html">ADD RECIPE</a>
+        <a href="editrecipe.html">EDIT HERE</a>
      </nav> 
 </head>
 
@@ -59,9 +64,7 @@
 </div>
 </div>
 
-   
-
-    <div class="container2">
+<div class="container2">
         <div class="row3">
            
 
@@ -73,16 +76,17 @@
 </div>
 </div>
 </div>
+<div class="video-container">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/bMactSaZWfU?si=u1Bg0TNjFOZIe7oA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
-
-
-       
-
-   
+</div>
+ 
 </body>
 
 <footer>
-
+<p>Follow us on:</p>
+<a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
 </footer>
 
 </html>

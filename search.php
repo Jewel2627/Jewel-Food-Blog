@@ -11,7 +11,7 @@
              $location=$_GET['location'];
 
             
-                    $sql = "SELECT * FROM recipes WHERE chefname='$chefname' or category='$category' or cuisine='$cuisine' or location='$location'" ;
+                    $sql = "SELECT * FROM recipename WHERE chefname='$chefname' or category='$category' or cuisine='$cuisine' or location='$location'" ;
                     $result = $db->query($sql);
 
                     if ($result->num_rows > 0) 
