@@ -13,14 +13,7 @@
 <div class="section left-section">
     <img src="Images/food logo.jpg" alt="food.jpg" width = "80" height="80"></div> 
     
-    <nav>
-        <a href="home.php">HOME</a>
-        <a href="recipeindex.html">RECIPE</a>
-        <a href="about.html">ABOUT</a>
-        <a href="index2.php">LOGIN</a>
-        <a href="addrecipe.html">ADD RECIPE</a>
-        <a href="editrecipe.html">EDIT HERE</a>
-     </nav> 
+ 
 </head>
 
     <body>

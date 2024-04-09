@@ -12,12 +12,19 @@
 <div class="section left-section">
     <img src="Images/food logo.jpg" alt="food.jpg" width = "80" height="80"></div> 
     
-  
+    <nav>
+        <a href="home.html">HOME</a>
+        <a href="recipeindex.html">RECIPE</a>
+        <a href="about.html">ABOUT</a>
+        <a href="index2.php">LOGIN </a>
+        <a href="index3.php">ADD RECIPE</a>
+        <a href="index4.php">EDIT HERE</a>
+     </nav> 
 </head>
 <body>
     
-
-<form action="login.php" method="post"> 
+<p> login as Chef/Admin</p>
+<form action="loginchef.php" method="post"> 
     <div class="signin"></div>
     <label for="username">Username</label><br>
             <input type="text" name="username" placeholder="username" /><br><br>

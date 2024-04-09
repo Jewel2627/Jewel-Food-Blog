@@ -16,9 +16,9 @@
         <a href="home.html">HOME</a>
         <a href="recipeindex.html">RECIPE</a>
         <a href="about.html">ABOUT</a>
-        <a href="index2.php">LOGIN</a>
-        <a href="addrecipe.html">ADD RECIPE</a>
-        <a href="editrecipe.html">EDIT HERE</a>
+        <a href="index2.php">LOGIN </a>
+        <a href="index3.php">ADD RECIPE</a>
+        <a href="index4.php">EDIT HERE</a>
      </nav> 
 </head>
 
@@ -27,19 +27,27 @@
 
 <body>
        <h1>Please Edit here</h1>
-  <form method="post" action="editrecipe.php">
+    <form method="post" action="update.php">
         <label>Recipe Name:</label>
-        <input type="text" name="RecipeName" />
+        <input type="text" name="recipename" />
+        <label>Category</label>
+        <input type="text" name="category" />
+        <label>Ingredients</label>
+        <input type="text" name="ingredients" />
+        <label>Directions:</label>
+        <input type="text" name="directions" />
+        <label>ChefName:</label>
+        <input type="text" name="chefname" />
         <br><br>
         <input type="submit" name="submit" value="Search to edit" />
         &nbsp;&nbsp;&nbsp;&nbsp;
-        <input type="button" value="Reset" />
+        <input type="reset" value="Reset" />
     </form>
 
    <div> <h1>Delete here</h1>
     <form method="post" action="delete.php">
         <label>Recipe Name:</label>
-        <input type="text" name="RecipeName" />
+        <input type="text" name="recipename" />
         <br><br>
         <input type="submit" name="submit" value="Search to Delete" />
         &nbsp;&nbsp;&nbsp;&nbsp;

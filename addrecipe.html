@@ -16,9 +16,9 @@
         <a href="home.html">HOME</a>
         <a href="recipeindex.html">RECIPE</a>
         <a href="about.html">ABOUT</a>
-        <a href="index2.php">LOGIN</a>
-        <a href="addrecipe.html">ADD RECIPE</a>
-        <a href="editrecipe.html">EDIT HERE</a>
+        <a href="index2.php">LOGIN </a>
+        <a href="index3.php">ADD RECIPE</a>
+        <a href="index4.php">EDIT HERE</a>
      </nav> 
 </head>
 
@@ -26,29 +26,22 @@
 <body>
     
 <h1>Welcome to Jewel Food Blog</h1> <br>
-<h2>Upload your recipe here</h2>
 
-
-<form id="upload" action="upload.php" method="post"
-enctype= "multipart/form-data">
-<label for ="Document"> Select a document to upload:</label><br>
-<input type="file" id="document" name="=document"><br>
-<input type="submit" value="upload">
-</form>
- 
 <h1>Add a New Recipe here</h1>
     
-        <form method="post" action="addrecipe.php">
-            <label>Chef Name:</label>
-            <input type="text" name="chefname" /><br><br>
+        <form method="post" action="addrecipe.php" enctype= "multipart/form-data">
+            <label>Chef Name:&nbsp;&nbsp;</label>
+            <input type="text" name="chefname" /> <br><br>
             <label>Category:&nbsp;&nbsp;</label>
             <input type="text" name="category" /> <br><br>
             <label>Recipe Name:&nbsp;&nbsp;&nbsp;&nbsp;</label>
-            <input type="text" name="RecipeName" /> <br><br>
-            <label>Ingredients:&nbsp;&nbsp;&nbsp;</label>
-            <textarea name="Ingredients" id="Ingredients" rows="5" cols="100"> </textarea><br><br>
+            <input type="text" name="recipename" /> <br><br>
+            <label>ingredients:&nbsp;&nbsp;&nbsp;</label>
+            <textarea name="ingredients" rows="5" cols="100"> </textarea><br><br>
             <label>Directions:&nbsp;&nbsp;&nbsp;</label>
-            <textarea name="Directions" id="Directions" rows="10" cols="100"> </textarea><br><br>
+            <textarea name="directions" rows="10" cols="100"> </textarea><br><br>
+            <label>Select image/video:</label><br>
+            <input type="file" name="file"><br>
             &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
             <input type="submit" name="submit" value="Submit" />
             &nbsp;&nbsp;&nbsp;&nbsp;

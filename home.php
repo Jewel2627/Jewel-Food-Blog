@@ -1,14 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+<meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/unsemantic-grid-responsive-tablet.">
+    <link rel="stylesheet" href="css/unsemantic-grid-responsive-tablet.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="<iframe width="560" height="315" src="https://www.youtube.com/embed/bMactSaZWfU?si=u1Bg0TNjFOZIe7oA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
+ 
    <title>JEWEL FOOD BLOG</title>
   
 <div class="section left-section">
@@ -19,8 +17,8 @@
         <a href="recipeindex.html">RECIPE</a>
         <a href="about.html">ABOUT</a>
         <a href="index2.php">LOGIN </a>>
-        <a href="addrecipe.html">ADD RECIPE</a>
-        <a href="editrecipe.html">EDIT HERE</a>
+        <a href="index3.php">ADD RECIPE</a>
+        <a href="index4.php">EDIT HERE</a>
      </nav> 
 </head>
 
