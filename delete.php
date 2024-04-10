@@ -1,11 +1,21 @@
-
 <?php
-            include('connection.php');
+    include('connection.php');
 
-            $recipemethod=$_POST['recipemethod'];
-           
-            $sql = "DELETE FROM recipemethod WHERE recipename='$recipename'" ;
-            $result = $db->query($sql);
+       if ($_SERVER["REQUEST_METHOD"] == "POST") 
+       {
+     
+        $recipename = $_POST['recipename']; 
+
+        $stmt = $db->prepare("DELETE FROM recipemethod WHERE recipename = ?");
+        $stmt->bind_param("s", $recipename);
+        
+        if ($stmt->execute()) {
             header("Location: home.php");
-            $db->close();
-        ?>
+        } else {
+            echo "Error deleting record: " . $stmt->error;
+        }
+        $stmt->close();
+        
+        $db->close();
+    }
+?>
